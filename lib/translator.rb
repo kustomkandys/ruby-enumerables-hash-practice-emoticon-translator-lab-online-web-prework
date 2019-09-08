@@ -8,15 +8,17 @@ def load_library(file_path)
       new_hash['get_meaning'][value[1]] = key
     end
 
-    new_hash  # code goes here
-end	end
+    new_hash  
+  end	
+end
 
 
 def get_japanese_emoticon	
   dn(file_path, emoticon)
-  result = load_library(file_pa)['get_emoticon'][emoticon]
-  result ? result : "Sorry, that emoticon was not found"# code goes here
-end	end
+  result = load_library(file_path)['get_emoticon'][emoticon]
+  result ? result : "Sorry, that emoticon was not found"
+  end	
+end
 
 
 def get_english_meaning	def get_english_meaning(file_path, emoticon)
