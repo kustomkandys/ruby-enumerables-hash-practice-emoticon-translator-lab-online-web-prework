@@ -1,7 +1,7 @@
 # require modules here
 
 def load_library
-  require  'lib/emoticons'
+  require  'emoticons'
 end
 
 def get_japanese_emoticon
