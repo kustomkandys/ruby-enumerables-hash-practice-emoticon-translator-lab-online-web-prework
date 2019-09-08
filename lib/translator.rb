@@ -1,7 +1,6 @@
 # require modules here
 
 def load_library
-  $LOAD_PATH.unshift(File.dirname(__FILE__))
   require  'lib/emoticons'
 end
 
